@@ -14,7 +14,9 @@ public class Demo {
         String[] palavras = texto.split(" ");
 
         for ( String palavra: palavras){
+
             for (int i = 0; i < palavra.length(); i++) {
+                palavra = palavra.toLowerCase();
               Character caixaBaixa = palavra.charAt(i);
 
               if(mapa.containsKey(caixaBaixa)){

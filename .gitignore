@@ -1,5 +1,7 @@
 bin/
 .settings/
+.idea
+out/
 
 .project
 .classpath
