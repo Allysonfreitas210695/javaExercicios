@@ -1,4 +1,4 @@
-package Questao_38;
+package unidade3.Questao_38;
 
 // Escreva uma classe EventoDelegacao que seja baseada na classe DataHora e que contenha um campo para indicar qual o evento que ela representa (use uma String para isto). Use o mecanismo de delegação para criar a classe EventoDelegacao
 public class EventoDelegacao {

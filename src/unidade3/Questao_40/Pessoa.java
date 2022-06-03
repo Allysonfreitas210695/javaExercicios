@@ -1,4 +1,4 @@
-package Questao_40;
+package unidade3.Questao_40;
 
 public class Pessoa {
   private String nome;

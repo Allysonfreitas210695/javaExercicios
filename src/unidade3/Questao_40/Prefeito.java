@@ -1,4 +1,4 @@
-package Questao_40;
+package unidade3.Questao_40;
 
 public class Prefeito extends Politico{
   private String cidade;
