@@ -1,21 +1,9 @@
-package unidade3.Questao_44;
 
-public class Quadrado {
-  private double base, altura;
+public class Quadrado extends FiguraGeometrica{
 
-  public double getBase() {
-    return this.base;
+  @Override
+  public void desenha() {
+    System.out.println("Quadrado!");
   }
-
-  public double getAltura() {
-    return this.altura;
-  }
-
-  public void setBase(double base) {
-    this.base = base;
-  }
-
-  public void setAltura(double altura) {
-    this.altura = altura;
-  }
+  
 }

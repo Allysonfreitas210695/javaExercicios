@@ -1,12 +1,20 @@
-package unidade3.Questao_44;
 
 public class Desenho {
-  private FiguraGeometrica figura1;
-  private FiguraGeometrica figura2;
-  private double x, y;
+  private FiguraGeometrica figuraA;
+  private FiguraGeometrica figuraB;
+  private double coordenadaX, coordenadaY;
 
-  Desenho(FiguraGeometrica figura1, FiguraGeometrica figura2, double x, double y){
-
+  Desenho(FiguraGeometrica figuraA, FiguraGeometrica figuraB, double coordenadaX, double coordenadaY){
+    this.figuraA = figuraA;
+    this.figuraB = figuraB;
+    this.coordenadaX = coordenadaX;
+    this.coordenadaY = coordenadaY;
   }
 
+  public void apresenta(){
+    this.figuraA.desenha();
+    this.figuraB.desenha();
+    System.out.println("Coordenada x: "+this.coordenadaX+" y: "+this.coordenadaY);
+  }
+  
 }
